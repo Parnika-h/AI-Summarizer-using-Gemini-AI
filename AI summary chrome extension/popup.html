@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>AI Summary</title>
+    <link rel="stylesheet" href="popup.css" />
+</head>
+<body class="light">
+    <header class="top-bar">
+        <h1>AI Summarizer using Gemini AI</h1>
+        <button id="theme-toggle" title="Toggle theme">🌙</button>
+    </header>
+    <div class="card">
+    <div class="controls">
+        <select id="summary-type">
+            <option value="brief">Brief Summary</option>
+            <option value="detailed">Detailed Summary</option>
+            <option value="bullets">Bullet Points</option>
+        </select>
+        <button id="summarize">Summarize</button>
+        <button id="copy">Copy</button>
+    </div>
+    <div id="result" class="result">
+    Click "Summarize" to generate a summary.
+    </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
